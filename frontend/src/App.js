@@ -8,7 +8,7 @@ import ResultDisplay from './components/ResultDisplay';
 import StatsDisplay from './components/StatsDisplay';
 import './App.css';
 
-const API_BASE_URL = 'http://localhost:8000';
+const API_BASE_URL = process.env.REACT_APP_API_URL || '/api';
 
 function App() {
   const [result, setResult] = useState(null);
