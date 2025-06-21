@@ -1,0 +1,64 @@
+.App {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.card {
+  border-radius: 15px;
+  border: none;
+}
+
+.card-header {
+  border-radius: 15px 15px 0 0 !important;
+  font-weight: 600;
+}
+
+.btn {
+  border-radius: 10px;
+}
+
+.form-control, .form-select {
+  border-radius: 10px;
+}
+
+.progress {
+  border-radius: 10px;
+  height: 8px;
+}
+
+.badge {
+  font-size: 0.8em;
+}
+
+.display-4 {
+  font-weight: 700;
+  background: linear-gradient(45deg, #667eea, #764ba2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.shadow-sm {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+
+/* Custom animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.card {
+  animation: fadeIn 0.5s ease-out;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .display-4 {
+    font-size: 2rem;
+  }
+  
+  .container-fluid {
+    padding: 1rem;
+  }
+}
