@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col, Card, Alert, Spinner } from 'react-bootstrap';
-import { FileText, Brain, Clock, BarChart3 } from 'lucide-react';
+import { FileText, Brain, BarChart3 } from 'lucide-react';
 import SummarizerForm from './components/SummarizerForm';
 import ResultDisplay from './components/ResultDisplay';
 import StatsDisplay from './components/StatsDisplay';
